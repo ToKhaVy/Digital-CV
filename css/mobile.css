@@ -1,0 +1,53 @@
+/** @format */
+
+@media (max-width: 768px) {
+  #nav-bar nav {
+    height: auto;
+    display: block;
+  }
+  #nav-bar img {
+    display: block;
+    position: absolute;
+    right: 100px;
+    bottom: 1px;
+    height: 150px;
+    width: auto;
+    border: none;
+    border-radius: 0;
+  }
+  #nav-bar a {
+    display: block;
+    padding: 10px;
+    border-left: none;
+    text-align: left;
+  }
+  #nav-bar i {
+    padding: 5px;
+  }
+  #target {
+    padding: 1rem 3rem 1rem;
+  }
+
+  #personal-info {
+    padding: 1rem;
+  }
+
+  #cert .item {
+    gap: 5px;
+  }
+
+  #cert .item-2 {
+    border-left: 0;
+    border-top: #d6c08d solid 1px;
+    padding-top: 20px;
+  }
+  #footer i {
+    font-size: 8vw;
+    color: #4dabf7;
+  }
+
+  #footer span {
+    font-size: 3vw;
+    margin: 4px 1vw 0 0;
+  }
+}
