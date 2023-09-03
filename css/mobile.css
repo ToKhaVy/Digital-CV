@@ -48,4 +48,8 @@
     font-size: 3vw;
     margin: 4px 1vw 0 0;
   }
+
+  #job-info .row .col-xxl-4 {
+    width: 100%;
+  }
 }

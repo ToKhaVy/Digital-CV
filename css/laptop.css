@@ -40,7 +40,7 @@ section > .container {
       rgba(34, 34, 34, 0.6),
       rgba(34, 34, 34, 0.6)
     ),
-    url(../images/banner.jpg);
+    url(../images/IT_Background.jpg);
   background-size: cover;
 
   display: flex;
@@ -97,6 +97,10 @@ section > .container {
   padding: 0 50px 0;
 }
 
+#about .row {
+  align-items: stretch;
+}
+
 /* Modify TARGET */
 #target h1,
 #personal-info h1 {
@@ -135,6 +139,10 @@ section > .container {
   line-height: 1.7;
 }
 
+#personal-info li {
+  margin-bottom: 25px;
+}
+
 #personal-info span {
   color: #495057;
   font-weight: 700;
@@ -152,9 +160,14 @@ section > .container {
   gap: 20px;
 } */
 
-#job-info .column {
+#job-info .row {
+  justify-content: space-between;
+  row-gap: 1rem;
+}
+
+#job-info .row .col-xxl-4 {
   border: 1px solid #dee2e6;
-  padding: 64px 10px;
+  width: 32%;
 }
 
 .icon-dot {
@@ -238,7 +251,16 @@ section > .container {
   display: inline-block;
   height: 3px;
   margin: 14px 24px 20px 0;
-  width: 60px;
+  width: 40px;
+}
+
+#skill .gray,
+#lang .gray {
+  background: gray;
+  display: inline-block;
+  height: 3px;
+  margin: 14px 24px 20px 0;
+  width: 40px;
 }
 
 .skill-name {
@@ -395,18 +417,12 @@ section > .container {
 }
 
 /* Modify FOOTER */
-#footer .container {
+#footer {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 #footer i {
-  font-size: 64px;
+  font-size: 50px;
   color: #4dabf7;
-}
-
-#footer span {
-  font-size: 24px;
-  margin: 5px 50px 0 0;
 }
